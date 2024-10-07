@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-07T21:47:53 IST" name="Master Suite" finished-at="2024-10-07T21:48:29 IST" duration-ms="36224">
+    <groups>
+      <group name="Master">
+        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:StepDefinitions.TC002_LoginTest@1fb669c3]" name="verify_Login" class="StepDefinitions.TC002_LoginTest"/>
+        <method signature="Tc001_AccRegTest.AccountRegistration()[pri:0, instance:StepDefinitions.Tc001_AccRegTest@1339e7aa]" name="AccountRegistration" class="StepDefinitions.Tc001_AccRegTest"/>
+        <method signature="Tc003_LoginDDTest.verify_LoginDDT()[pri:0, instance:StepDefinitions.Tc003_LoginDDTest@49c66ade]" name="verify_LoginDDT" class="StepDefinitions.Tc003_LoginDDTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginTest.verify_Login()[pri:0, instance:StepDefinitions.TC002_LoginTest@1fb669c3]" name="verify_Login" class="StepDefinitions.TC002_LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="Tc001_AccRegTest.AccountRegistration()[pri:0, instance:StepDefinitions.Tc001_AccRegTest@1339e7aa]" name="AccountRegistration" class="StepDefinitions.Tc001_AccRegTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-10-07T21:47:53 IST" name="Test" finished-at="2024-10-07T21:48:29 IST" duration-ms="36224">
+      <class name="StepDefinitions.Tc001_AccRegTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:StepDefinitions.Tc001_AccRegTest@1339e7aa]" started-at="2024-10-07T21:47:53 IST" name="setup" finished-at="2024-10-07T21:48:00 IST" duration-ms="6221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AccountRegistration()[pri:0, instance:StepDefinitions.Tc001_AccRegTest@1339e7aa]" started-at="2024-10-07T21:48:00 IST" name="AccountRegistration" finished-at="2024-10-07T21:48:18 IST" duration-ms="18375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:StepDefinitions.Tc001_AccRegTest@1339e7aa]" started-at="2024-10-07T21:48:18 IST" name="tearDown" finished-at="2024-10-07T21:48:18 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- StepDefinitions.Tc001_AccRegTest -->
+      <class name="StepDefinitions.TC002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:StepDefinitions.TC002_LoginTest@1fb669c3]" started-at="2024-10-07T21:48:18 IST" name="setup" finished-at="2024-10-07T21:48:22 IST" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Login()[pri:0, instance:StepDefinitions.TC002_LoginTest@1fb669c3]" started-at="2024-10-07T21:48:22 IST" name="verify_Login" finished-at="2024-10-07T21:48:24 IST" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:StepDefinitions.TC002_LoginTest@1fb669c3]" started-at="2024-10-07T21:48:24 IST" name="tearDown" finished-at="2024-10-07T21:48:24 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- StepDefinitions.TC002_LoginTest -->
+      <class name="StepDefinitions.Tc003_LoginDDTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:StepDefinitions.Tc003_LoginDDTest@49c66ade]" started-at="2024-10-07T21:48:24 IST" name="setup" finished-at="2024-10-07T21:48:27 IST" duration-ms="3146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_LoginDDT()[pri:0, instance:StepDefinitions.Tc003_LoginDDTest@49c66ade]" started-at="2024-10-07T21:48:27 IST" name="verify_LoginDDT" finished-at="2024-10-07T21:48:29 IST" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_LoginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:StepDefinitions.Tc003_LoginDDTest@49c66ade]" started-at="2024-10-07T21:48:29 IST" name="tearDown" finished-at="2024-10-07T21:48:29 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- StepDefinitions.Tc003_LoginDDTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>

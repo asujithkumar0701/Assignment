@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN">
+
+	<Properties>
+		<property name="basepath">./logs</property>
+	</Properties>
+
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<Patternlayout
+				pattern="%d{HH:ss.SSSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+
+		<RollingFile name="File" fileName="${basePath}/automation.log"
+			filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSSS} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPloicy size="5000" />
+		</RollingFile>
+	</Appenders>
+
+	<Loggers>
+		<Root level="Info"><!--Here you can use Multiple log levels All<Trace<Debug<Info<Warn<Error<Fatal<Off-->
+			<!--<AppendRef ref="Console"/>-->
+			<AppendRef ref="File" />
+		</Root>
+	</Loggers>
+</Configuration>
